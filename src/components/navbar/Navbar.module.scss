@@ -1,0 +1,125 @@
+@import '../../global.scss';
+
+.Navbar{
+    background-color: $navBgColor;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include medium{
+        background-color: transparent;
+    }
+
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: flex;
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                letter-spacing: 1.5px;
+                color: $navColor;
+                padding: 10px;
+
+                &::after{
+                    content: '';
+                    display: block;
+                    margin-top: 5px;
+                    border-bottom: 3px solid rgba(255, 136, 0, 0.904);
+                    transform: scaleX(0);
+                    transition: transform 250ms ease-in-out;
+                }
+
+                &:hover::after{
+                    transform: scaleX(1.5);
+                }
+            }
+        }
+      }
+    }
+
+    .Navigation{
+
+        @include medium {
+            display: none;
+        }
+    }
+
+    .MobileNavigation{
+        display: none;
+        flex-direction: column;
+        background-color: transparent;
+        height: 100%;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+
+        @include medium {
+            display: flex;
+        }
+
+        .NavLinks{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            background-color: $navBgColor;
+            right: 0;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0;
+                padding: 20px;
+                border-top: 1px solid black;
+                
+                a{
+                    width: 50%;
+                    text-align: center;
+                    transition: all 300ms ease-in-out;
+
+                    &:hover{
+                        color: $textOrange;
+                    }
+
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .hamburger{
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0.4rem 1.5rem 0 0;
+            cursor: pointer;
+            z-index: 9999;
+        }
+    }
+}

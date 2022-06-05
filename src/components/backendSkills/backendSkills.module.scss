@@ -1,0 +1,11 @@
+@import '../../global.scss';
+
+.backendSkills{
+    color: $mainColor;
+    margin: 2rem 0;
+
+    .subtitle{
+        color: inherit;
+        text-transform: uppercase;
+    }
+}

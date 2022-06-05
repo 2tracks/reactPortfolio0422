@@ -1,0 +1,66 @@
+@import '../../global.scss';
+
+// MyWork button
+.btnWrapper{
+    position:relative;
+    top: 50px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+
+    .btn {
+        line-height: 50px;
+        height: 50px;
+        text-align: center;
+        width: 100%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .btnMyWork{
+        color: $textOrange;
+        text-decoration: none;
+
+        &:before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0;
+            transition: all 0.3s ease;
+            border-top-width: 2px;
+            border-bottom-width: 2px;
+            border-top-style: solid;
+            border-bottom-style: solid;
+            border-top-color: $textOrange;
+            border-bottom-color: $textOrange;
+            transform: scale(0.1, 1);
+        }
+        &:hover{
+            letter-spacing: 2px;
+            color: $mainColor;
+        }
+        &:hover::before{
+            opacity: 1;
+            transform: scale(1, 1);
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
+            transition: all 0.3s ease;
+            background-color: rgba(255, 255,255, 0.3);
+            border-radius: 5px;
+        }
+        &:hover::after{
+            opacity: 0;
+            transform: scale(0.1, 1);
+        }
+    }
+}
