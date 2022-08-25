@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  width: 80%;
+  max-width: 800px;
+  color: rgb(219, 213, 213);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 0.5rem;
+}
+.form .label_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+@media (min-width: 1000px) {
+  .form .label_wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 12px;
+  }
+}
+.form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.form label input {
+  height: 1.7rem;
+}
+.form button {
+  width: 100%;
+  height: 1.8rem;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  background-color: rgb(219, 213, 213);
+  border-bottom: 2px solid rgb(255, 140, 0);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: rgb(255, 140, 0);
+}
+.form .inTouch {
+  color: rgb(255, 140, 0);
+  font-family: inherit;
+  font-style: italic;
+  font-size: 1.2rem;
+}

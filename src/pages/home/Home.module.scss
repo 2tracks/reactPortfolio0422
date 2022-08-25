@@ -36,9 +36,12 @@
             padding: 0 0.5rem;
         }
         h3 {
+            position: absolute;
+            top: 100px;
             width: 100%;
             text-align: center;
-            padding: 0 0.5rem;
+            margin: 1.5rem 0;
         }
+
     }
 }

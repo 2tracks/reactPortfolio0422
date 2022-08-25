@@ -35,7 +35,7 @@ export default function Home() {
       <div className={classes.container}> 
         <h1>Gabriela Di Salvatore-Bosshard</h1>
         <SocialIcons/>
-        <h3>Software Developer | Full Stack Web Developer | Web Designer</h3>
+        <h3 className='homeSub'>Software Developer | Full Stack Web Developer | Web Designer</h3>
         <ButtonMyWork/>
         <ScrollDown/>
       </div>
