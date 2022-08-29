@@ -2,7 +2,7 @@ import {motion} from "framer-motion";
 import classes from './backendSkills.module.scss';
 
 export default function BackendSkills() {
-    const skillsArr = ['Python', 'Django', 'Flask', 'Node', 'JSON', 'SQL/Postgres', 'MongoDB', 'AWS', 'Heroku'];
+    const skillsArr = ['Python', 'Django', 'Flask', 'Node', 'JSON', 'SQL/Postgres', 'MongoDB', 'AWS', 'Heroku', 'Azure'];
 
     return (
         <motion.div className={classes.backendSkills}>

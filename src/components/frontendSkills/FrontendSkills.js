@@ -2,7 +2,7 @@ import {motion} from "framer-motion";
 import classes from "./frontendSkills.module.scss";
 
 export default function FrontendSkills() {
-    const skillsArr = ['Javascript', 'jQuery', 'Bootstrap', 'React', 'Framer-Motion', 'Gulp', 'Git', 'Github'];
+    const skillsArr = ['HTML', 'CSS', 'SASS', 'Javascript', 'jQuery', 'Bootstrap', 'React', 'Framer-Motion', 'Gulp', 'Git', 'Github', 'Docker'];
 
     return (
         <motion.div className={classes.frontendSkills}>

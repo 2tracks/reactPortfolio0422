@@ -14,14 +14,15 @@ export default function About() {
       <h3>Let me tell you a few things</h3>
       <img src={gabiCafe1200} alt="Portrait" />
       <h2>Bio</h2>
-      <p className={classes.textBio}>I worked as a System Engineer and as a Webmaster and now
-        I love to code Websites. I am comfortable working independently 
+      <p className={classes.textBio}>My journey started in the graphic industry as a Serigraph,
+       over the years I have worked as an IT Supporter, IT-Consultant, IT-Teacher and Webmaster
+        as well as in the Sales field. I have a wide range of experience and I love to bring new ideas to the table and
+         work in an agile team. I love to code Websites. I am comfortable working independently 
         and/or collaborating on teams.</p>
       <div className={classes.containerFrontend}>
         <h2>Frontend</h2>
         <p>I love to create the Front-end with modern HTML,
-          CSS and Javascript by using some of the modern workflow tools like sGit,
-          Npm and Gulp.
+          CSS and Javascript and React by using some of the modern workflow tools like Git, Npm and Gulp.
         </p>
           <FrontendSkills/>
       </div>
