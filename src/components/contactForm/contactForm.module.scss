@@ -30,6 +30,12 @@
         input{
             height: 1.7rem;
         }
+        input:focus{
+            outline-color: rgb(70, 206, 240);
+        }
+        textarea:focus{
+            outline-color: rgb(70, 206, 240);
+        }
     }
     button{
         width: 100%;
@@ -39,17 +45,24 @@
         font-size: 1.2rem;
         margin-top: 5px;
         background-color: $mainColor;
-        border-bottom: 2px solid $textOrange;
         transition: all 0.2s ease-in;
         cursor: pointer;
 
+        &:focus{
+            outline-color: $formSubmit;
+            color: $formSubmit;
+            background-color: #565252;
+        }
+
         &:hover{
-            background-color: $textOrange;
+            color: $formSubmit;
+            background-color: #565252;
+            border: solid 1px $formSubmit;
         }
     }
 
     .inTouch{
-        color: $textOrange;
+        color: rgb(70, 206, 240);
         font-family: inherit;
         font-style: italic;
         font-size: 1.2rem;
