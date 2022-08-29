@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <div className={classes.footer}>
-        <small>Copyright&copy; {date} | All rights reserved.</small>
+        <small>Copyright&copy; {date} | All rights reserved by Gabriela Di Salvatore-Bosshard.</small>
     </div>
   )
 }
