@@ -1,24 +1,21 @@
 @import '../../global.scss';
 
+
 .form {
+    color: $mainColor;
     width: 80%;
     max-width: 800px;
-    color: $mainColor;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-self: center;
     padding: 0.5rem;
+    overflow: hidden;
 
     .label_wrapper{
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 0.5rem;
 
         @include large{
                 flex-direction: row;
-                gap: 12px;
+                gap: 0.75rem;
         }
     }
 
@@ -43,7 +40,7 @@
         font-family: inherit;
         font-weight: 500;
         font-size: 1.2rem;
-        margin-top: 5px;
+        margin-top: 0.3rem;
         color: $mainBgColor;
         background-color: $mainColor;
         transition: all 0.2s ease-in;
