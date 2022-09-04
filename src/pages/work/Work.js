@@ -63,7 +63,7 @@ export default function Work() {
             title = 'Harry Potter'
             imageUrl={imgHP}
             cardTitle='Html | CSS | Javascript | API'
-            body= 'This project was all about API calls fetch()'
+            body= 'This project was all about API calls "fetch()". Unfortunately the "potterapi.com" is no longer available.'
             projectLink='https://2tracks.github.io/IFDMilestone-Project/'
             githubLink='https://github.com/2tracks/IFDMilestone-Project/'
           />
