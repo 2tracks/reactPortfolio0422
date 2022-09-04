@@ -55,7 +55,7 @@ export default function Work() {
             title = 'Portfolio'
             imageUrl={imgPortfolio}
             cardTitle='Html | CSS | Bootstrap'
-            body= 'A portfolio with HTML, CSS and Bootstrap'
+            body= 'The goal of this project was to make a small portfolio only with HTML, CSS and Bootstrap'
             projectLink="https://2tracks.github.io/UCFDMilestoneProject/"
             githubLink="https://github.com/2tracks/UCFDMilestoneProject/"
           />
