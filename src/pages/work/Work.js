@@ -6,6 +6,7 @@ import imgPortfolio from '../../img/ms1resume.png';
 import imgHP from '../../img/ms2harryPotter.jpg';
 import imgShopChichi from '../../img/ms4shopChichi.jpg';
 import imgCookbook from '../../img/ms3cookbook.jpg';
+import imgReactPortf from '../../img/reactPortfolio.jpg';
 
 
 export default function Work() {
@@ -39,12 +40,12 @@ export default function Work() {
             githubLink=''
           />
           <Card
-            title = 'Coming soon'
-            imageUrl={img}
-            cardTitle='Html | CSS | Bootstrap'
-            body= 'Coming soon'
-            projectLink=''
-            githubLink=''
+            title = 'React Portfolio'
+            imageUrl={imgReactPortf}
+            cardTitle='Html | SCSS | React'
+            body= 'Portfolio made with React and SASS hosted on Azure'
+            projectLink='https://witty-rock-01c607003.1.azurestaticapps.net/'
+            githubLink='https://github.com/2tracks/reactPortfolio0422'
           />
         </div>
 
