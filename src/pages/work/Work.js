@@ -5,6 +5,7 @@ import img from '../../img/bg_computer_sm.jpg';
 import imgPortfolio from '../../img/ms1resume.png';
 import imgHP from '../../img/ms2harryPotter.jpg';
 import imgShopChichi from '../../img/ms4shopChichi.jpg';
+import imgCookbook from '../../img/ms3cookbook.jpg';
 
 
 export default function Work() {
@@ -69,9 +70,9 @@ export default function Work() {
           />
           <Card
             title = 'Cookbook'
-            imageUrl={img}
-            cardTitle='Flask | Python3 | Bootstrap'
-            body= 'A personal cookbook with Flask hosted on Heroku'
+            imageUrl={imgCookbook}
+            cardTitle='Flask | Python3 | MongoDB'
+            body= 'A cookbook made with Flask hosted on Heroku and MongoDB Atlas'
             projectLink='https://my-cookbook-flask-mongodb.herokuapp.com/'
             githubLink='https://github.com/2tracks/DCDMilestone_Project-Cookbook/'
           />
